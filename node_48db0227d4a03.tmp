@@ -1,8 +1,5 @@
 'use strict';
 
-//This is the hello world statement
-//fixed
-
 var http = require('http');
 http.createServer(function(req, res){
     res.writeHead(200, {
